@@ -28,7 +28,9 @@ public class ProductController
     @ResponseStatus(HttpStatus.OK)
     public List<ProductResponse> getAllProducts()
     {
+
         return productService.getAllProducts();
+
     }
 
 //    @GetMapping("/{id}")
